@@ -1,7 +1,7 @@
 licedate
 ===============
 
-License date fixer
+Command-line license date updater.
 
 ```bash
 $ npm install -g licedate
