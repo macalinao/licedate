@@ -1,8 +1,10 @@
 {
   "name": "licedate",
   "description": "License date fixer",
-  "version": "0.0.0",
-  "dependencies": {},
+  "version": "0.1.0",
+  "dependencies": {
+    "bluebird": "^2.6.4"
+  },
   "author": "Ian Macalinao <me@ian.pw>",
   "repository": "simplyianm/licedate",
   "license": "MIT",
@@ -17,5 +19,9 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
-  }
+  },
+  "bin": {
+    "licedate": "cli.js"
+  },
+  "preferGlobal": true
 }
