@@ -1,0 +1,21 @@
+{
+  "name": "licedate",
+  "description": "License date fixer",
+  "version": "0.0.0",
+  "dependencies": {},
+  "author": "Ian Macalinao <me@ian.pw>",
+  "repository": "simplyianm/licedate",
+  "license": "MIT",
+  "keywords": [
+    "licedate",
+    "license",
+    "date"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
